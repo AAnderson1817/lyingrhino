@@ -2788,7 +2788,7 @@
 			top: 5em;
 		}
 
-			.spotlight .image:before {
+			/*.spotlight .image:before {
 				content: '';
 				display: block;
 				border-radius: 0.5em 0.5em 0 0;
@@ -2807,7 +2807,7 @@
 				margin-left: -1.5em;
 				top: 1.5em;
 				width: 3em;
-			}
+			}*/
 
 			.spotlight .image img {
 				-moz-transition: opacity 1s ease;
@@ -3364,8 +3364,8 @@
 		#banner button,
 		#banner .button {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #ffffff;
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 2px #f4f4f4;
+			color: #f4f4f4 !important;
 		}
 
 			#banner input[type="submit"]:hover,
@@ -3431,16 +3431,16 @@
 		}
 
 		#banner blockquote {
-			border-left-color: #ffffff;
+			border-left-color: #f4f4f4;
 		}
 
 		#banner code {
 			background: rgba(255, 255, 255, 0.075);
-			border-color: #ffffff;
+			border-color: #f4f4f4;
 		}
 
 		#banner hr {
-			border-bottom-color: #ffffff;
+			border-bottom-color: #f4f4f4;
 		}
 
 		#banner .inner {
@@ -3510,7 +3510,7 @@
 			-webkit-animation: more 0.75s ease-out 3s forwards;
 			-ms-animation: more 0.75s ease-out 3s forwards;
 			animation: more 0.75s ease-out 3s forwards;
-			background-color: #ffffff;
+			background-color: #f4f4f4;
 			background-image: url("images/arrow.svg");
 			background-position: 50% 0.875em;
 			background-repeat: no-repeat;
@@ -3704,7 +3704,7 @@
 		-webkit-transition: opacity 0.5s ease;
 		-ms-transition: opacity 0.5s ease;
 		transition: opacity 0.5s ease;
-		background-color: #ffffff;
+		background-color: #f4f4f4;
 		min-height: 100vh;
 		opacity: 1;
 	}
