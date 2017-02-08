@@ -2403,6 +2403,7 @@
 		.image img {
 			border-radius: 4px;
 			display: block;
+			width:100%;
 		}
 
 		.image.left, .image.right {
@@ -2634,7 +2635,7 @@
 
 	section.special, article.special {
 		text-align: center;
-		background-color: #ffffff;
+		background-color: #f4f4f4;
 	}
 
 	section header, article header {
@@ -2870,7 +2871,7 @@
 
 		.spotlight .image:before {
 			border-color: #eaeaea;
-			background-color: #ffffff;
+			background-color: #f4f4f4;
 		}
 
 		.spotlight .image:after {
@@ -3096,7 +3097,7 @@
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
 		border-bottom: solid 2px #eaeaea;
-		background: #ffffff;
+		background: #f4f4f4;
 		height: 3.5em;
 		left: 0;
 		line-height: 3.5em;
@@ -3164,7 +3165,7 @@
 		#header.alt {
 			background-color: transparent;
 			border-bottom-color: transparent;
-			color: #ffffff;
+			color: #f4f4f4;
 		}
 
 			#header.alt nav ul li a[href="#menu"]:before {
@@ -3223,7 +3224,7 @@
 		-ms-transition: -ms-transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #ffffff;
+		background: #f4f4f4;
 		color: #777777;
 		height: 100%;
 		max-width: 80%;
@@ -3651,7 +3652,7 @@
 
 	#footer {
 		padding: 5em 0 3em 0 ;
-		background-color: #f7f7f7;
+		background-color: #f4f4f4;
 		text-align: center;
 	}
 
